@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "my-header"
+    "my-main"
+    "my-footer";
+    background-color: rgba(255, 255, 255, 0.089);
+}
+header{
+    grid-area: my-header;
+
+}
+main{
+    grid-area: my-main;
+}
+footer{
+    grid-area: my-footer;
+}
+h1{
+    font-size: 20px;
+}
+/*******Estilos de la presentacion*******/
+.presentacion{
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/images/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.conocenos{
+    text-transform: uppercase;
+    background-color: rgba(161, 6, 6, 0.363);
+    display: inline-block;
+    transition: all 1s ease;
+}
+.conocenos:hover{
+    transform: translateY(-5px) scale(1.2);
+}
+
+.parrafo{
+    font-size: 1.5em;
+}
+.contenedor-intro{
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 1em;
+}
+.image-servicios{
+    width: 200px;
+}
+.image-presentacion{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 1em; /* Ajusta el tamaño de la fuente según sea necesario */
+    }
+    .parrafo{
+        font-size: 18px;
+        letter-spacing: .1em;
+    }
+
+}
+

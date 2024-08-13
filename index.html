@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación Amigos Canarios Venezonalos</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">  
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light p-4">
+      <div class="container">
+        <div>
+          <a class="navbar-brand fs-2 fw-bold" href="#">
+            <img src="./assets/images/bitmap.png" alt="Logo" width="148" height="40" class="d-inline-block align-text-top">
+          </a>
+          <h1 class="fw-light mt-1 d-none d-xl-block fw-bold">Asociación Amigos Canarios Venezolanos</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienessomos">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#eventos">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categoria
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Galeria</a></li>
+                <li><a class="dropdown-item" href="#">Directivo</a></li>
+                <li><a class="dropdown-item" href="#">Preguntas y Respuestas</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="btn-group ms-lg-5 mt-lg-0 mt-4">
+            <button class="btn btn-secondary bg-dark text-danger dropdown-toggle fw-bold" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              ENTRAR
+            </button>
+            <div class="dropdown-menu dropdown-menu-lg-end " data-bs-popper="static">
+              <form class="px-4 py-3">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail1" class="form-label">Correo Electronico</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Acuérdate de mi
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-secondary">Iniciar sesión</button>
+              </form>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">¿Eres nuevo por aqui? Regístrate</a>
+              <a class="dropdown-item" href="#">¿Has olvidado tu contraseña?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>    
+  </header>
+    
+    <main>
+      <div class="presentacion container-fluid mb-lg-5 p-5">
+        <section class="container">
+            <div class="col-12 col-lg-8 col rounded contenedor-intro my-5">
+                <img src="./assets/images/logo2.png" alt="" class="image-presentacion">   
+            </div> 
+            <div class="text-center">
+                <a href="" class="conocenos text-white text-decoration-none fw-bold rounded p-3">Hazte Voluntario<i class="fa-solid fs-4 ms-2 text-danger fa-heart"></i></a>
+            </div>
+        </section>
+      </div>
+    
+    
+      <section class="container-fluid pt-5 py-lg-5" id="quienessomos">
+        <div class="container border-bottom border-danger">  
+          <div class="row shadow pt-5 p-lg-5 px-2 mb-5 .bg-secondary-subtle rounded">
+            <div class="col-12 p-lg-5 col-lg-6 text-white bg-dark rounded">
+              <h2 class="mb-3 text-center">Sobre Nosotros</h2>
+              <p class="parrafo">La Asociación Amigos Canarios Venezolanos <span class="fw-bold text-danger">«Forjadores de Libertades»</span>, es una asociación sin fines de lucro, cuya misión es ayudar de una manera integral a todas las personas canarias retornadas y refugiados venezolanos a reinsertarse en la sociedad española.</p>
+            </div>
+            <div class="col-12 shadow py-5 px-4 bg-light rounded col-lg-6">
+              <h3 class="mb-3 text-center">Nuestra Finalidad</h3>
+              <ol class="fs-5">
+                <li>El fin  de la Asociación es el prestar ayuda social humanitaria ala población desplazada y refugiada, a la vez servir como puente en la integración real de estos, a la sociedad española.</li>
+                <li>Ser un puente de Amigo canario-venezolano para la ayuda humanitaria a la población desplazada y refugiada en territorio español.</li>
+                <li>Prestar ayuda y colaboración a la población venezolana, en su país de origen y en territorio canario-español.</li>
+                <li>Asistir y asesorar al inmigrante, en los pasos a seguir para mantener su situación legal en España.</li>
+                <li>Ayudar con nuestro recursos al inmigrante y/o asistirlo. Así, con la ayuda también de otras organizaciones de Ayudas Humanitarias, pueda mejorar su situación y reinsertarse en la sociedad española.</li>
+                <li>Favorecer a través de nuestro protocolo de acogida, la convivencia de igual a igual entre las personas refugiadas y el resto de residentes en territorio español.</li>   
+              </ol>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      
+      <div class="container-fluid bg-light">
+        <div class="container" id="servicios">
+        <div class="row">
+          <div class="bg-white col-md-8 fs-md-5 p-5 mt-5 mt-lg-5">
+            <h2 class="d-inline px-5 py-2 fs-3 fw-bold text-white border-bottom bg-danger">SERVICIOS</h2>
+            <p class="parrafo mt-5 my-lg-5 text-dark">
+              Desde la asociación, intentamos dar auxilio a la gran necesidad de apoyo que requieren tanto los venezolanos-canarios que retornan a la isla como a los venezolanos que llegan a estás tierras bendecidas por Dios, en búsqueda de seguridad, bienestar y un mejor futuro. Podemos agrupar nuestros servicios como encontrará a continuación.</p>
+          </div>
+          <div class="col-md-4 my-5 d-flex justify-content-center align-items-center">
+             <img src="./assets/images/image1.png" alt="" class="image-servicios" > 
+          </div>
+        </div>
+        <div class="container">
+          <div class="row my-5">
+            <div>
+              <p class="fs-4 fw-bold">Son tantos los casos en los que hemos tenido la oportunidad de dar una mano a quien lo ha necesitado, queremos compartir algunos logros de nuestra corta historia.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h3 class="fs-1 mb-4 fw-bold text-warning text-center">300+</h3>
+              <p>Más de 300 venezolanos que hemos podido ayudar tanto en casos de necesidades básicas y apoyo orientación y asistencia a los que solicitan el asilo político o la protección internacional humanitaria en España e incorporarlos a la sociedad.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h3 class="fs-1 mb-4 fw-bold text-center text-primary">1,800+</h3>
+              <p>Durante la pandemia del Corona virus, ayudamos a más de 1800 personas con alimentos, ropa y otros requerimientos de primera necesidad.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h3 class="fs-1 mb-4 fw-bold text-center text-danger">200+</h3>
+              <p>En Reyes, hemos podido llevar una sonrisa a más de 200 niños de personas faltos de recursos. Los niños son nuestra principal prioridad y colaboramos con esas familias que tanto necesitan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="accordion mb-1 mb-lg-5 row m-0" id="accordionExample">
+            <div class="accordion-flush col-lg-4 p-0">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button border border-white text-white fs-4 bg-danger bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Venezolanos Retornados
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ol>
+                    <li>Empadronamiento.</li>
+                    <li>Retirar DNI en la Policía Nacional (Cita Previa).</li>
+                    <li>Solicitar ayuda de Inmigrante Retornado (Extranjería).</li>
+                    <li>Solicitar número de la Seguridad Social.</li>
+                    <li>Solicitar la tarjeta como demandante de empleo en la Oficina de Empleo (INEM).</li>
+                    <li>Asesorías jurídicas gratuitas: Colegio de Abogados,</li>
+                    <li>Asesorías jurídicas gratuitas: Colegio de Abogados, Cruz Roja Internacional, CEAR y AACV (Citas Previas).</li>
+                    <li>Ayuda Social: Cruz Roja (Cita Previa), Cáritas, Ayuntamiento donde se encuentra empadronado (Asuntos Sociales, Cita Previa).</li>
+                    <li>Cursos: Profesionalización gratuitos, Mil Anuncios, Ayuntamiento, INEM (Oficina de Empleo y SEPE).</li>
+                    <li>Empleo: Mil Anuncios, Infojobs, Grupo de WhatsApp de la Asociación, 012 (Número Telefónico del Servicio Canario de Empleo).</li>
+
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-flush p-0 col-lg-4">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button  border border-white text-white fs-4 bg-danger bg-gradient collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Venezolanos sin Documentación
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ol>
+                    <li>Empadronamiento.</li>
+                    <li>Solicitar  Protección Internacional Humanitaria en la Policía Nacional (Cita Previa).</li>
+                    <li>Refugio en el CEAR y Cruz Roja para casos urgentes.</li>
+                    <li>Asesorías Jurídicas Gratuitas: Colegio de Abogados, Cruz Roja, CEAR y AAVV (Citas Previas).</li>
+                    <li>Ayudas Sociales: Cruz Roja, (Cita Previa), Cáritas, Ayuntamiento donde se encuentra empadronado (Asuntos Sociales -Cita Previa).</li>
+                    <li>Con la primera tarjeta apuntarse como demandante de empleo en el INEM (Oficina de Empleo).</li>
+                    <li>Cursos: Profesionalización gratuitos, Mil Anuncios, Ayuntamiento, INEM (Oficina de Empleo).</li>
+                    <li>Empleos: Mil Anuncios, InfoJob, Grupo de WhatsApp de la Asociación, 012 (Número Telefónico del Servicio Canario de Empleo).</li>
+                    <li>Homologación de títulos (Subdelegación del Gobierno).</li>
+                    <li>Solicitar la Seguridad Social cuando le entreguen la tarjeta roja, para que le asignen médico de cabecera.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-flush p-0 col-lg-4">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button  fs-4 border border-white text-white bg-danger bg-gradient collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Formación
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ol>
+                    <li>Empadronamiento.</li>
+                    <li>Retirar DNI en la Policía Nacional (Cita Previa).</li>
+                    <li>Solicitar ayuda de Inmigrante Retornado (Extranjería).</li>
+                    <li>Solicitar número de la Seguridad Social.</li>
+                    <li>Solicitar la tarjeta como demandante de empleo en la Oficina de Empleo (INEM).</li>
+                    <li>Asesorías jurídicas gratuitas: Colegio de Abogados,</li>
+                    <li>Asesorías jurídicas gratuitas: Colegio de Abogados, Cruz Roja Internacional, CEAR y AACV (Citas Previas).</li>
+                    <li>Ayuda Social: Cruz Roja (Cita Previa), Cáritas, Ayuntamiento donde se encuentra empadronado (Asuntos Sociales, Cita Previa).</li>
+                    <li>Cursos: Profesionalización gratuitos, Mil Anuncios, Ayuntamiento, INEM (Oficina de Empleo y SEPE).</li>
+                    <li>Empleo: Mil Anuncios, Infojobs, Grupo de WhatsApp de la Asociación, 012 (Número Telefónico del Servicio Canario de Empleo).</li>
+
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+     
+
+      <div class="container-fluid bg-white pb-5 mt-5">
+        <div class="container" id="eventos">
+          <div class="row">
+            <h2 class="my-5 text-dark fs-3 text-center fw-bold">EVENTOS Y NOTICIAS</h2>
+            <div class="col-lg-4 col-12  d-flex justify-content-center">
+              <div class="card shadow p-3 mb-5 bg-body rounded">
+                <figure class="figure">
+                    <img src="./assets/images/Carlos.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-center">Activida de Labor Humanitaria</figcaption>
+                  </figure>
+                <div class="card-body">
+                  <h5 class="card-title">LA CRUCIAL LABOR HUMANITARIA DE LA AACV</h5>
+                  <p class="card-text">En el contexto de los desafíos que enfrentan los emigrantes retornados en Canarias, la colaboración entre la Viceconsejería de Acción Exterior del Gobierno de Canarias...</p>
+                  <a href="#" class="btn btn-danger">Más información</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12  d-flex justify-content-center">
+              <div class="card shadow p-3 mb-5 bg-body rounded">
+                <figure class="figure">
+                    <img src="./assets/images/PUERTODELACRUZ.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-center">
+                      Actividad en el Mercado Puerto de la Cruz
+                    </figcaption>
+                  </figure>
+                <div class="card-body">
+                  <h5 class="card-title">La AACV Participa en el Mercado de Puerto de la Cruz</h5>
+                  <p class="card-text">La Asociación Amigos Canarios Venezolanos se enorgullece de anunciar su exitosa participación en el Mercado de Puerto de la Cruz, celebrado el pasado domingo 30...</p>
+                  <a href="#" class="btn btn-danger">Más información</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12  d-flex justify-content-center">
+              <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+                <figure class="figure">
+                    <img src="./assets/images/mercadoafrica.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-center">Actividad en el Mercado de Africa</figcaption>
+                  </figure>
+                <div class="card-body">
+                  <h5 class="card-title">LA AACV PARTICIPA EN EL MERCADO DE ÁFRICA EN LA RECOVA</h5>
+                  <p class="card-text">La Asociación Amigos Canarios Venezolanos se enorgullece de anunciar su exitosa participación en el Mercado de África, celebrado el pasado sábado 22 de junio de...</p>
+                  <a href="#" class="btn btn-danger">Más información</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="container border-top border-danger" id="contacto">
+        <div class="row my-5 py-5">
+          <div class="col-12 col-lg-6">
+            <h2 class="mb-5 my-lg-5  fs-3 fw-bold text-center">EN QUE PODEMOS AYUDAR!</h2>
+            <p class="parrafo">Si tienes alguna duda o pregunta referente a tu situación legal en España o podemos ser un apoyo para intentar buscar el camino para solucionar alguna situación, déjanos tus datos y una beve descripción de la situación. Nos pondremos en contacto lo más pronto posible.</p>
+            <div class="d-flex justify-content-center align-items-center my-5">
+              <i class="bi bi-facebook fs-1 mx-4 text-primary"></i>
+              <i class="bi bi-twitter fs-1 mx-4 text-secondary"></i>
+              <i class="bi bi-youtube fs-1 mx-4 text-danger"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 ">
+            <form class="shadow bg-secondary py-5 px-4 mb-5 rounded">
+              <div>
+                <label for="exampleInputEmail1" class="form-label text-white fs-5 py-1">Nombres:</label>
+                <input type="text" class="form-control" placeholder="Escribe Tus Nombres" aria-label="First name">
+              </div>
+              <div>
+                <label for="exampleInputEmail1" class="form-label text-white fs-5 py-1">Apellidos:</label>
+                <input type="text" class="form-control" placeholder="Escribe Tu Apellido" aria-label="Last name">
+              </div>
+              <div>
+                <label for="telefono" class="form-label text-white fs-5 py-1">Telefono:</label>
+                <input type="tel" class="form-control" placeholder="Escribe Tu Numero de Telefono" aria-label="First name">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-white fs-5 py-1">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe Tu Correo Electronico">
+                <div id="emailHelp" class="form-text text-dark">Nunca compartiremos su correo electrónico con nadie más.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-white fs-5 py-3">Escribenos Tu Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+      
+
+    </main>
+    <footer class="py-5 mt-5 text-bg-light">
+      <ul class="nav justify-content-center mb-2">
+        <li class="ms-3 fs-4"><a href="#"><i class="text-secondary fa-brands fa-facebook"></i></a></li>
+        <li class="ms-3 fs-4"><a href="#"><i class="text-secondary fa-brands fa-twitter"></i></a></li>
+        <li class="ms-3 fs-4"><a href="#"><i class="text-secondary fa-brands fa-instagram" ></i></a></li>
+        <li class="ms-3 fs-4" ><a href="#"><i class="text-secondary fa-brands fa-youtube"></i></a></li>
+      </ul>
+      <p class="nav justify-content-center border-bottom pb-4 mb-3">
+        Copyright © 2024 Asociación Amigos Canarios Venezolanos
+      </p>
+      <p class="text-center text-body-secondary fw-bold">Política de cookies (UE)</p>
+    </footer> 
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
